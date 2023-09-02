@@ -1,0 +1,43 @@
+<!-- ! short cut for tag with attributes ,meta: ,link:css ,script:src -->
+<!-- * we have three mainly used color scheme,#ffffff(hexcode),hsl(360,100%,100%) hue saturation lighting and rgb(256,256,256) -->
+<!-- ? we can use alpha channel,rgba(256,256,256,0.5) -->
+<!-- !blockquote(generally we do quotation by css ) used to represent enclosed text as extended quotation,can use cite attribute to provide the refrence -->
+<!-- * The <cite> HTML element is used to mark up the title of creative work done. cite is similar to span .it makes link italic-->
+<!-- ? address for contact address of person or people  -->
+<!-- !bdo is used for changing the direction for our text,Bidirectional text override -->
+<!-- ! title is global attribute,can use with any element -->
+<!--? abbr tag for providing the abbreviation (short form) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Will know about colors">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: rgb(223, 12, 1) < !-- ! HERE IT WILL OVERRIDE THE PROPERTY OF EXTERNAL CSS -->
+        }
+    </style>
+    <title>colors</title>
+</head>
+
+<body>
+    <p style="color: #168b22;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, enim?</p>
+    <abbr></abbr>
+    <blockquote cite="this">Living is just waste of times</blockquote>
+    <q>This inside quotation</q>
+    <p title="Paragraph">Contact the author of page</p>
+    <address>
+        <a href="mailto:pkumars397@gmail.com">pkumars397@gmail.com</a>
+        <br/>
+        <a href="tel:+919199852168">9199852168</a>
+    </address>
+    <cite><a href="https://google.com">Google</a> </cite>
+    <bdo dir="rtl">Prashant</bdo>
+    <p><abbr>CSS</abbr> cascading stylesheet</p>
+</body>
+
+</html>
